@@ -1,0 +1,23 @@
+[package]
+name = "vfxpro"
+version = "0.1.0"
+authors = ["tarnith <tarnith@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = "0.13.1"
+
+
+[[example]]
+name = "sketch"
+path = "sketches/sketch.rs"
+
+[[example]]
+name = "noisesketch"
+path = "sketches/noisesketch.rs"
+
+[[example]]
+name = "noise"
+path = "sketches/noise.rs"
